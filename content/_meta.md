@@ -1,5 +1,5 @@
 ---
-Logo: https://cdn.discordapp.com/attachments/888045209072566303/905186235268620348/Foretag.png
+Logo: assets\img\meta-logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
