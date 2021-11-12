@@ -8,16 +8,27 @@
         </div>
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            <h1>{{ site_title }}</h1>
             <a href="{{ base_url }}">
-                <h1>{{ site_title }}</h1>
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
-            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
-            <span class="sr-only">Toggle Menu</span>
-        </a>
+        <div class="google">
+            {% for google in pages["_meta"].meta.google %}
+                <a href="{{ google.url }}" title="{{ google.title }}" role="button" target="_blank">
+                    <span> {{ google.title }} </span>
+                    <i class="{{ google.icon }}" aria-hidden="true"></i>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="amazon">
+            {% for amazon in pages["_meta"].meta.amazon %}
+                <a href="{{ amazon.url }}" title="{{ amazon.title }}" role="button" target="_blank">
+                    <span> {{ amazon.title }} </span>
+                    <i class="{{ amazon.icon }}" aria-hidden="true"></i>
+                </a>
+            {% endfor %}
+        </div>
     </div>
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">

@@ -1,0 +1,82 @@
+// import normalize
+@import '../../node_modules/normalize.css/normalize';
+
+// scss modules:
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+
+// fontawesome modules
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// Other Modules:
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+// Whole page
+* {
+    color: $font-color;
+    font-family: $font;
+    max-width: 100%;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: $background-color;
+}
+
+// Header
+.site-header {
+    text-align: center;
+}
+
+// Main content
+.main {
+    margin: $padding;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+code {
+    color: #000;
+    word-break: break-all;
+}
+
+// Navigation
+.nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul li a {
+    color: $font-color;
+}
+
+.google {
+    margin: $paddingshop;
+    text-decoration: underline;
+}
+
+.amazon {
+    margin: $paddingshop;
+    text-decoration: underline;
+}
+
+// Footer
+.footer {
+    padding: $padding;
+}
+
+.social {
+    float: right;
+    padding-right: 1em;
+}
