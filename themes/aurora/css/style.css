@@ -393,7 +393,7 @@ pre code {
   border-radius: 25px;
   background-color: blue;
   height: 200px;
-  width: 80%;
+  width: 95%;
 }
 
 .wrapper .kmom {
@@ -419,7 +419,7 @@ pre code {
 .xxwrapper .kmom {
   grid-column: 2/5;
   border-radius: 25px;
-  background-color: red;
+  background-color: #fa0000;
 }
 
 .wrapper .kmom p {
