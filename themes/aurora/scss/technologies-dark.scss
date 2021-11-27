@@ -1,0 +1,116 @@
+@import 'variables-dark';
+
+* {
+    font-style: $font-style;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    gap: 25px;
+}
+
+.wrapper h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.wrapper .project {
+    grid-column: span 3;
+    justify-self: center;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: $background-color;
+    height: 200px;
+    width: 95%;
+}
+
+.wrapper .kmom {
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border-radius: 25px;
+    background-color: $box-color;
+    height: auto;
+}
+
+// xx.md
+.xxwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 25px;
+}
+
+.xxwrapper h1 {
+    grid-column: span 4;
+    justify-self: center;
+}
+
+.xxwrapper .kmom {
+    grid-column: 2/5;
+    border-radius: 25px;
+    background-color: $box-color;
+    padding: 25px;
+    margin: 10px;
+}
+
+.wrapper .kmom p {
+    padding: 25px;
+}
+
+.xxwrapper .kmom p {
+    padding: 25px;
+}
+
+.xxwrapper .nav {
+    grid-column: 1/2;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: $box-color;
+    position: sticky;
+    top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xxwrapper .nav div {
+    padding: 15px;
+    text-align: center;
+}
+
+.xxwrapper .nav div a{
+    color: $font-color;
+}
+
+.kmom-header {
+    background-color: $background-color;
+    height: 50px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        display: block;
+    }
+
+    .xxwrapper {
+        display: block;
+        padding: 25px;
+    }
+
+    .xxwrapper .nav {
+        position: relative;
+        width: 80%;
+    }
+
+    .wrapper .project {
+        display: block;
+        width: auto;
+    }
+}
+

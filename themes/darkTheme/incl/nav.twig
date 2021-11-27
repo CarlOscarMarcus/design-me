@@ -1,0 +1,44 @@
+<div class="header" role="banner">
+    <div class="site-header">
+        {% if pages["_meta"].meta.logo %}
+        <div class="logo">
+            <a href="{{ base_url }}">
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+            </a>
+        </div>
+        {% endif %}
+        <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            <h1>{{ site_title }}</h1>
+            <a href="{{ base_url }}">
+                {{ pages["_meta"].meta.tagline|markdown }}
+            </a>
+        </div>
+        <div class="google">
+            {% for google in pages["_meta"].meta.google %}
+                <a href="{{ google.url }}" title="{{ google.title }}" role="button" target="_blank">
+                    <span> {{ google.title }} </span>
+                    <i class="{{ google.icon }}" aria-hidden="true"></i>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="amazon">
+            {% for amazon in pages["_meta"].meta.amazon %}
+                <a href="{{ amazon.url }}" title="{{ amazon.title }}" role="button" target="_blank">
+                    <span> {{ amazon.title }} </span>
+                    <i class="{{ amazon.icon }}" aria-hidden="true"></i>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="nav">
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,101 @@
+// index.md
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    gap: 25px;
+}
+
+.wrapper h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.wrapper .project {
+    grid-column: span 3;
+    justify-self: center;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #616161;
+    height: 200px;
+    width: 95%;
+}
+
+.wrapper .kmom {
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #616161;
+    height: auto;
+}
+
+// xx.md
+.xxwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 25px;
+}
+
+.xxwrapper h1 {
+    grid-column: span 4;
+    justify-self: center;
+}
+
+.xxwrapper .kmom {
+    grid-column: 2/5;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: #616161;
+}
+
+.kmom p {
+    padding: 25px;
+}
+
+.xxwrapper .nav {
+    grid-column: 1/2;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #616161;
+    width: 80%;
+    position: sticky;
+    top: 20px;
+}
+
+.nav div a{
+    color: #fff;
+}
+
+.nav div{
+    padding: 5px;
+}
+
+.kmom-header {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        display: block;
+    }
+
+    .xxwrapper {
+        display: block;
+        padding: 25px;
+    }
+
+    .xxwrapper .nav {
+        position: relative;
+    }
+
+    .wrapper .project {
+        display: block;
+        width: auto;
+    }
+}
+

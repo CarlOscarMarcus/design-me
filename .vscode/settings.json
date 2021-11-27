@@ -1,0 +1,20 @@
+{
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/content/analysis/index.md"
+            ],
+            "config": {
+                "audience": "expert",
+                "dialect": "american",
+                "domain": "general",
+                "emotions": [
+                    "confident"
+                ],
+                "goals": [
+                    "inform"
+                ]
+            }
+        }
+    ]
+}
