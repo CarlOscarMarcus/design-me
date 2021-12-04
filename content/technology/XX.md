@@ -32,49 +32,49 @@ Template: xx
 
 
 <div id="kmom01" class="kmom">
-<p class="kmom-header"> KMOM01 </p>
+<h3 class="kmom-header"> KMOM01 </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>
 </div>
 
 <div id="kmom02" class="kmom">
-<p class="kmom-header"> KMOM02 </p>
+<h3 class="kmom-header"> KMOM02 </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>
 </div>
 
 <div id="kmom03" class="kmom">
-<p class="kmom-header"> KMOM03 </p>
+<h3 class="kmom-header"> KMOM03 </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>
 </div>
 
 <div id="kmom04" class="kmom">
-<p class="kmom-header"> KMOM04 </p>
+<h3 class="kmom-header"> KMOM04 </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>
 </div>
 
 <div id="kmom05" class="kmom">
-<p class="kmom-header"> KMOM05 </p>
+<h3 class="kmom-header"> KMOM05 </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>
 </div>
 
 <div id="kmom06" class="kmom">
-<p class="kmom-header"> KMOM06 </p>
+<h3 class="kmom-header"> KMOM06 </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>
 </div>
 
 <div id="proj" class="kmom">
-<p class="kmom-header"> Projekt </p>
+<h3 class="kmom-header"> Projekt </h3>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, nulla vitae hendrerit laoreet, enim dolor pulvinar odio, quis consequat orci nibh ac diam. Vestibulum non arcu sed nibh elementum mollis nec ornare neque. Duis eget risus vel odio accumsan sodales eu non neque. Nulla facilisi. Aliquam facilisis, lacus ac pharetra cursus, odio diam sagittis purus, tincidunt sollicitudin ante dolor non ligula. Nullam eleifend, sem sit amet tristique tempus, leo turpis sagittis justo, ac mollis lacus lectus quis metus. Duis ultricies tortor dui, sit amet facilisis augue dignissim at.
 </p>

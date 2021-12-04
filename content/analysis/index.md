@@ -8,18 +8,18 @@ Template: technologies
 
 <div class="kmom">
 <a href="analysis/01_colors">
-<p class="kmom-header"> 01: Colors </p>
+<h3 class="kmom-header"> 01: Colors </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="analysis/02_load">
-<p class="kmom-header"> 02: Load </p>
+<h3 class="kmom-header"> 02: Load </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="analysis/03_design_principles">
-<p class="kmom-header"> 03: Design principles </p>
+<h3 class="kmom-header"> 03: Design principles </h3>
 </a>
 </div>

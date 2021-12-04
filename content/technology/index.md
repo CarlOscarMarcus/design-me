@@ -8,42 +8,42 @@ Template: technologies
 
 <div class="kmom">
 <a href="technology/XX#kmom01">
-<p class="kmom-header"> KMOM01 </p>
+<h3 class="kmom-header"> KMOM01 </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="technology/XX#kmom02">
-<p class="kmom-header"> KMOM02 </p>
+<h3 class="kmom-header"> KMOM02 </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="technology/XX#kmom03">
-<p class="kmom-header"> KMOM03 </p>
+<h3 class="kmom-header"> KMOM03 </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="technology/XX#kmom04">
-<p class="kmom-header"> KMOM04 </p>
+<h3 class="kmom-header"> KMOM04 </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="technology/XX#kmom05">
-<p class="kmom-header"> KMOM05 </p>
+<h3 class="kmom-header"> KMOM05 </h3>
 </a>
 </div>
 
 <div class="kmom">
 <a href="technology/XX#kmom06">
-<p class="kmom-header"> KMOM06 </p>
+<h3 class="kmom-header"> KMOM06 </h3>
 </a>
 </div>
 
 <div class="kmom project">
 <a href="technology/XX#proj">
-<p class="kmom-header"> Projekt </p>
+<h3 class="kmom-header"> Projekt </h3>
 </a>
 </div>
