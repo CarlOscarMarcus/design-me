@@ -21,4 +21,18 @@ google:
     - title: Google
       url: https://google.se/
       icon: fab fa-google
+
+Gallery:
+    - url: /image/gallery/xmasCity.jpg
+      alt: xmasCity
+    - url: /image/gallery/xmasGifts.jpg
+      alt: xmasGifts
+    - url: /image/gallery/xmasPark.jpg
+      alt: xmasPark
+    - url: /image/gallery/xmasStar.jpg
+      alt: xmasStar
+    - url: /image/gallery/xmasTable.jpg
+      alt: xmasTable
+    - url: /image/gallery/xmasTree.png
+      alt: xmasTree
 ---

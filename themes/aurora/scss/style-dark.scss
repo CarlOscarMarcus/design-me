@@ -6,6 +6,7 @@
 @import 'blockquotes';
 @import 'code';
 @import 'technologies-dark';
+@import 'gallery';
 
 // fontawesome modules
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -80,4 +81,13 @@ code {
 .social {
     float: right;
     padding-right: 1em;
+}
+
+.img-border {
+    box-shadow:
+    rgba(255, 255, 255, 0.25) 0 54px 55px,
+    rgba(255, 255, 255, 0.12) 0 -12px 30px,
+    rgba(255, 255, 255, 0.12) 0 4px 6px,
+    rgba(255, 255, 255, 0.17) 0 12px 13px,
+    rgba(255, 255, 255, 0.09) 0 -3px 5px;
 }

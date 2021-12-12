@@ -383,6 +383,7 @@ pre code {
   grid-template-rows: auto;
   text-align: center;
   gap: 25px;
+  scroll-behavior: smooth;
 }
 
 .wrapper h1 {
@@ -461,7 +462,7 @@ pre code {
 
 .kmom-header {
   background-color: #000;
-  height: 50px;
+  padding: 25px;
   border-radius: 25px;
 }
 
@@ -485,6 +486,47 @@ pre code {
     width: auto;
   }
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  justify-items: center;
+  gap: 2.5em;
+}
+.gallery-main {
+  padding-top: 3rem;
+}
+
+.gallery a picture {
+  aspect-ratio: 1.6/1;
+}
+
+.videoContainer iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  aspect-ratio: 16/9;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 1400px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.imgBorder {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.24) 0px -12px 30px, rgba(0, 0, 0, 0.24) 0px 4px 6px, rgba(0, 0, 0, 0.34) 0px 12px 13px, rgba(0, 0, 0, 0.18) 0px -3px 5px;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6657,4 +6699,8 @@ code {
 .social {
   float: right;
   padding-right: 1em;
+}
+
+.imgBorder {
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }

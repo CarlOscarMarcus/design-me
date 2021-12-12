@@ -26,8 +26,9 @@
     margin: 25px;
     padding: 25px;
     border-radius: 25px;
+    border-radius: 25px;
     background-color: rgb(0, 0, 255);
-    height: 200px;
+    height: auto;
 }
 
 // xx.md
@@ -47,6 +48,8 @@
     grid-column: 2/5;
     border-radius: 25px;
     background-color: rgb(250, 0, 0);
+    padding: 25px;
+    margin: 10px;
 }
 
 .wrapper .kmom p {
@@ -55,6 +58,8 @@
 
 .xxwrapper .kmom p {
     padding: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
 }
 
 .xxwrapper .nav {
@@ -62,15 +67,30 @@
     margin: 25px;
     padding: 25px;
     border-radius: 25px;
-    background-color: rgb(0, 0, 255);
-    width: 80%;
+    background-color: rgb(255, 0, 0);
     position: sticky;
     top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xxwrapper .nav div {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.xxwrapper .nav div a {
+    color: rgb(255, 255, 255);
 }
 
 .kmom-header {
     background-color: rgb(0, 0, 0);
-    height: 50px;
+    padding: 25px;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 1000px) {
